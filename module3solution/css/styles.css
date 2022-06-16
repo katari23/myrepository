@@ -138,11 +138,11 @@ section > p {
 @media (min-width: 1200px) {
   .navbar-brand {
     padding-top: 0;
-    height: 10px;
+    height: 40px;
   }
   h1, .navbar-brand h1 {
     padding-top: 10px;
-    font-size: 1.5em;
+    font-size: 6vw;
   }
 
   #collapsable-nav a {
