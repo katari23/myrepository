@@ -138,11 +138,11 @@ section > p {
 @media (min-width: 1200px) {
   .navbar-brand {
     padding-top: 0;
-    height: 40px;
+    height: 10px;
   }
   h1, .navbar-brand h1 {
     padding-top: 10px;
-    font-size: 6vw;
+    font-size: 50em;
   }
 
   #collapsable-nav a {
@@ -164,14 +164,4 @@ section > p {
 
 /********** Extra small devices only **********/
 @media (max-width: 767px) {
-}
-
-
-/********** Super extra small devices Only (e.g., iPhone 4) **********/
-@media (max-width: 479px) {
-  /* Header */
-  h1, .navbar-brand h1 {
-    padding-top: 13px;
-  }
-  /* End Header */
 }
