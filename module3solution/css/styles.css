@@ -1,5 +1,5 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
@@ -9,12 +9,12 @@ body {
 }
 
 .container {
-    border: none;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    padding: 10px;
+  border: none;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
 }
 
 .navbar-brand {
@@ -83,30 +83,30 @@ h1 {
 }
 
 section {
-    border: 1px solid #61122f;
-    background-color: #f6b319;
-    width: 100%;
-    height: auto;
-    font-family: Helvetica;
-    color: #61122f;
-    position: relative;
-    overflow: auto;
+  border: 1px solid #61122f;
+  background-color: #f6b319;
+  width: 100%;
+  height: auto;
+  font-family: Helvetica;
+  color: #61122f;
+  position: relative;
+  overflow: auto;
 }
 
 .submenu {
-    border: 1px solid #f6b319;
-    text-align: center;
-    width: 30%;
-    margin-left: 70%;
-    font-family: Georgia,sans-serif;
-    font-weight: bold;
-    font-size: 1.25em;
+  border: 1px solid #f6b319;
+  text-align: center;
+  width: 30%;
+  margin-left: 70%;
+  font-family: Georgia,sans-serif;
+  font-weight: bold;
+  font-size: 1.25em;
   color: #f6b319;
   text-shadow: 1px 1px 1px #222;
-    margin-bottom: 0;
-    margin-top: 0;
-    padding: 5px;
-    background-color: #61122f;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding: 5px;
+  background-color: #61122f;
 }
 
 section > p {
@@ -136,6 +136,19 @@ section > p {
 
 /********** Large devices only **********/
 @media (min-width: 1200px) {
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
   .navbar-brand {
     padding-top: 0;
     height: 40px;
@@ -152,16 +165,15 @@ section > p {
     font-size: 1em;
     margin-right: 3px;
   }
+  /* End Header */
 }
 
-/********** Medium devices only **********/
-@media (min-width: 992px) and (max-width: 1199px) {
-}
 
-/********** Small devices only **********/
-@media (min-width: 768px) and (max-width: 991px) {
-}
-
-/********** Extra small devices only **********/
-@media (max-width: 767px) {
+/********** Super extra small devices Only (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+  /* Header */
+  h1, .navbar-brand h1 {
+    padding-top: 13px;
+  }
+  /* End Header */
 }
