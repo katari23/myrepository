@@ -136,6 +136,22 @@ section > p {
 
 /********** Large devices only **********/
 @media (min-width: 1200px) {
+  .navbar-brand {
+    padding-top: 0;
+    height: 40px;
+  }
+  h1, .navbar-brand h1 {
+    padding-top: 10px;
+    font-size: 6vw;
+  }
+
+  #collapsable-nav a {
+    font-size: 1.2em;
+  }
+  #collapsable-nav a span {
+    font-size: 1em;
+    margin-right: 3px;
+  }
 }
 
 /********** Medium devices only **********/
